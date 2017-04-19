@@ -1,0 +1,16 @@
+H:\LibraryMIS\LibraryMIS\bin\Debug\LibraryMIS.exe
+H:\LibraryMIS\LibraryMIS\bin\Debug\LibraryMIS.pdb
+H:\LibraryMIS\LibraryMIS\bin\Debug\Common.dll
+H:\LibraryMIS\LibraryMIS\bin\Debug\Common.pdb
+H:\LibraryMIS\LibraryMIS\obj\Debug\ResolveAssemblyReference.cache
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.AboutBox.resources
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormMain.resources
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormLogin.resources
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.Properties.Resources.resources
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.csproj.GenerateResource.Cache
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.exe
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.pdb
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserManage.resources
+H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserInsert.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.exe
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.pdb

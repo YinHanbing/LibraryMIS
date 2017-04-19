@@ -1,0 +1,5 @@
+H:\LibraryMIS\Common\bin\Debug\Common.dll
+H:\LibraryMIS\Common\bin\Debug\Common.pdb
+H:\LibraryMIS\Common\obj\Debug\ResolveAssemblyReference.cache
+H:\LibraryMIS\Common\obj\Debug\Common.dll
+H:\LibraryMIS\Common\obj\Debug\Common.pdb
