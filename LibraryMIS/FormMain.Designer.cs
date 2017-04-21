@@ -31,7 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.借阅管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.基础数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.图书管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BookManage = new System.Windows.Forms.ToolStripMenuItem();
             this.统计查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.UserManage = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,16 +63,17 @@
             // 基础数据ToolStripMenuItem
             // 
             this.基础数据ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.图书管理ToolStripMenuItem});
+            this.BookManage});
             this.基础数据ToolStripMenuItem.Name = "基础数据ToolStripMenuItem";
             this.基础数据ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.基础数据ToolStripMenuItem.Text = "基础数据";
             // 
-            // 图书管理ToolStripMenuItem
+            // BookManage
             // 
-            this.图书管理ToolStripMenuItem.Name = "图书管理ToolStripMenuItem";
-            this.图书管理ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.图书管理ToolStripMenuItem.Text = "图书管理";
+            this.BookManage.Name = "BookManage";
+            this.BookManage.Size = new System.Drawing.Size(152, 22);
+            this.BookManage.Text = "图书管理";
+            this.BookManage.Click += new System.EventHandler(this.BookManage_Click);
             // 
             // 统计查询ToolStripMenuItem
             // 
@@ -133,7 +134,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 借阅管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 基础数据ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 图书管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem BookManage;
         private System.Windows.Forms.ToolStripMenuItem 统计查询ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 系统管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem UserManage;

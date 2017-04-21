@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace LibraryMIS
@@ -16,7 +11,7 @@ namespace LibraryMIS
             InitializeComponent();
         }
 
-        private void btnlogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             //Common.CGlobal.userName = "test";
             if (ValidateLogin(txtUserName.Text, txtPassword.Text))
@@ -62,6 +57,16 @@ namespace LibraryMIS
         private void FormLogin_Load(object sender, EventArgs e)
         {
             txtUserName.Focus();
+        }
+
+        private void btnShow_MouseDown(object sender, MouseEventArgs e)
+        {
+            txtPassword.PasswordChar = '\0';
+        }
+
+        private void btnShow_MouseUp(object sender, MouseEventArgs e)
+        {
+            txtPassword.PasswordChar = '*';
         }
     }
 }

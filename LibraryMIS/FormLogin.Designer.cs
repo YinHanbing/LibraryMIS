@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnlogin = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUserName = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnlogin
+            // btnLogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(72, 148);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(75, 23);
-            this.btnlogin.TabIndex = 13;
-            this.btnlogin.Text = "登录";
-            this.btnlogin.UseVisualStyleBackColor = true;
-            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
+            this.btnLogin.Location = new System.Drawing.Point(72, 148);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "登录";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPassword
             // 
@@ -53,7 +54,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(132, 21);
-            this.txtPassword.TabIndex = 12;
+            this.txtPassword.TabIndex = 2;
             // 
             // txtUserName
             // 
@@ -61,7 +62,7 @@
             this.txtUserName.MaxLength = 32;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(132, 21);
-            this.txtUserName.TabIndex = 11;
+            this.txtUserName.TabIndex = 1;
             // 
             // lblPassword
             // 
@@ -86,28 +87,41 @@
             this.btnExit.Location = new System.Drawing.Point(153, 148);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 14;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "退出";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // btnShow
+            // 
+            this.btnShow.Location = new System.Drawing.Point(247, 96);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(23, 21);
+            this.btnShow.TabIndex = 3;
+            this.btnShow.TabStop = false;
+            this.btnShow.Text = "查";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnShow_MouseDown);
+            this.btnShow.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnShow_MouseUp);
+            // 
             // FormLogin
             // 
-            this.AcceptButton = this.btnlogin;
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(291, 231);
-            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.btnShow);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.btnExit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormLogin";
+            this.Text = "登录界面";
             this.Load += new System.EventHandler(this.FormLogin_Load);
-            
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,11 +129,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnlogin;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnShow;
     }
 }
