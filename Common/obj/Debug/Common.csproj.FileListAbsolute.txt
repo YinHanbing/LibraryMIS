@@ -3,3 +3,8 @@ H:\LibraryMIS\Common\bin\Debug\Common.pdb
 H:\LibraryMIS\Common\obj\Debug\ResolveAssemblyReference.cache
 H:\LibraryMIS\Common\obj\Debug\Common.dll
 H:\LibraryMIS\Common\obj\Debug\Common.pdb
+G:\Studying\作业\平时作业\数据库\LibraryMIS\Common\bin\Debug\Common.dll
+G:\Studying\作业\平时作业\数据库\LibraryMIS\Common\bin\Debug\Common.pdb
+G:\Studying\作业\平时作业\数据库\LibraryMIS\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+G:\Studying\作业\平时作业\数据库\LibraryMIS\Common\obj\Debug\Common.dll
+G:\Studying\作业\平时作业\数据库\LibraryMIS\Common\obj\Debug\Common.pdb

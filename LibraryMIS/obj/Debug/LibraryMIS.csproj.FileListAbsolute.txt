@@ -14,3 +14,15 @@ H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserManage.resources
 H:\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserInsert.resources
 G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.exe
 G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.pdb
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\bin\Debug\LibraryMIS.exe
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\bin\Debug\LibraryMIS.pdb
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\bin\Debug\Common.dll
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\bin\Debug\Common.pdb
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.csprojResolveAssemblyReference.cache
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.AboutBox.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormMain.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormLogin.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserInsert.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserManage.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.Properties.Resources.resources
+G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.csproj.GenerateResource.Cache

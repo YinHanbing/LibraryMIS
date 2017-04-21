@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace LibraryMIS
@@ -59,6 +53,11 @@ namespace LibraryMIS
             //form1.MdiParent = this;
             //form1.Show();
             formUserManage.ShowDialog();
+        }
+
+        private void BookManage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
