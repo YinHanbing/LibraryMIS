@@ -28,11 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(66, 187);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 0;
+            this.btnSave.Text = "保存";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // FormBookManage
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(364, 265);
+            this.Controls.Add(this.btnSave);
+            this.Name = "FormBookManage";
             this.Text = "FormBookManage";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnSave;
     }
 }
