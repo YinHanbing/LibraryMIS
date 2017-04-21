@@ -26,3 +26,5 @@ G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\Librar
 G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.FormUserManage.resources
 G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.Properties.Resources.resources
 G:\Studying\作业\平时作业\数据库\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.csproj.GenerateResource.Cache
+F:\Files\Development\VS\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.exe
+F:\Files\Development\VS\LibraryMIS\LibraryMIS\obj\Debug\LibraryMIS.pdb
