@@ -112,6 +112,7 @@
             this.labelCopyright.TabIndex = 21;
             this.labelCopyright.Text = "Copyright";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelCopyright.Click += new System.EventHandler(this.labelCopyright_Click);
             // 
             // labelCompanyName
             // 
@@ -127,7 +128,10 @@
             // 
             // textBoxDescription
             // 
+            this.textBoxDescription.CausesValidation = false;
+            this.textBoxDescription.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxDescription.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.textBoxDescription.Location = new System.Drawing.Point(143, 99);
             this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.textBoxDescription.Multiline = true;

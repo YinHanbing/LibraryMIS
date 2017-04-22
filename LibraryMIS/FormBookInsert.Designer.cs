@@ -1,6 +1,6 @@
 ﻿namespace LibraryMIS
 {
-    partial class FormBookManage
+    partial class FormBookInsert
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FormBookManage
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 265);
-            this.Name = "FormBookManage";
-            this.Text = "FormBookManage";
-            this.ResumeLayout(false);
-
+            this.Text = "FormBookInsert";
         }
 
         #endregion

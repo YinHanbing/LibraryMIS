@@ -59,6 +59,12 @@
     <Compile Include="AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBookInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBookInsert.Designer.cs">
+      <DependentUpon>FormBookInsert.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBookManage.cs">
       <SubType>Form</SubType>
     </Compile>
