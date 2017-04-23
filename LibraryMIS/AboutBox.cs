@@ -10,10 +10,10 @@ namespace LibraryMIS
         {
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
+            this.labelProductName.Text = String.Format("Product Aname : {0}", AssemblyProduct);
             this.labelVersion.Text = String.Format("Version : {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
+            this.labelCompanyName.Text = String.Format("Company Name : {0}", AssemblyCompany);
             this.textBoxDescription.Text = AssemblyDescription;
         }
 

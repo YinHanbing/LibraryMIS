@@ -27,10 +27,6 @@ namespace LibraryMIS
 
                 edtUserName.Text = vrds.Tables[0].Rows[0]["UserName"].ToString();
                 edtName.Text = vrds.Tables[0].Rows[0]["Name"].ToString();
-
-
-
-
             }
             
         }

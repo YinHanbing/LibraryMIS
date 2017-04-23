@@ -1,15 +1,14 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("LibraryMIS")]
-[assembly: AssemblyDescription("Description : This software is developed to study the database, only to learn to use.")]
+[assembly: AssemblyDescription("This software is developed to study the database, only to learn to use.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Company : ******")]
-[assembly: AssemblyProduct("Product Name : LibraryMIS")]
+[assembly: AssemblyCompany("******")]
+[assembly: AssemblyProduct("LibraryMIS")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

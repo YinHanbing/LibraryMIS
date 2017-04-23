@@ -57,12 +57,15 @@
             // 
             // grpParameters
             // 
+            this.grpParameters.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grpParameters.Controls.Add(this.edtName);
             this.grpParameters.Controls.Add(this.label4);
             this.grpParameters.Controls.Add(this.edtUserName);
             this.grpParameters.Controls.Add(this.lblServerName);
             this.grpParameters.ForeColor = System.Drawing.Color.Teal;
-            this.grpParameters.Location = new System.Drawing.Point(26, 12);
+            this.grpParameters.Location = new System.Drawing.Point(21, 32);
             this.grpParameters.Name = "grpParameters";
             this.grpParameters.Size = new System.Drawing.Size(238, 124);
             this.grpParameters.TabIndex = 11;
@@ -87,7 +90,10 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(67, 161);
+            this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOK.Location = new System.Drawing.Point(62, 181);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 12;
@@ -97,7 +103,10 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(148, 161);
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.Location = new System.Drawing.Point(143, 181);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 13;
@@ -113,6 +122,7 @@
             this.Controls.Add(this.grpParameters);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnCancel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormUserInsert";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "增加用户";

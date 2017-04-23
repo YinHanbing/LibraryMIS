@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace LibraryMIS
 {
     public partial class FormBookInsert : Form
     {
+        Common.DataBase dataBase = new Common.DataBase();
+        public string op = "Add";
+        public string BookID = "";
+
         public FormBookInsert()
         {
             InitializeComponent();
