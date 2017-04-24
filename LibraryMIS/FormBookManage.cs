@@ -39,7 +39,7 @@ namespace LibraryMIS
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-
+            // 删除数据
         }
     }
 }
