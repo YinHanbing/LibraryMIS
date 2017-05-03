@@ -64,7 +64,5 @@ namespace LibraryMIS
             formUserInsert.ShowDialog();
             FormUserManage_Load(sender, e);
         }
-
-
     }
 }

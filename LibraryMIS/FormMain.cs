@@ -10,8 +10,6 @@ namespace LibraryMIS
             InitializeComponent();
         }
 
-        
-
         private void ToolStripMenuItemAbout_Click(object sender, EventArgs e)
         {
             AboutBox aboutBox = new AboutBox();
@@ -57,7 +55,12 @@ namespace LibraryMIS
 
         private void BookManage_Click(object sender, EventArgs e)
         {
+            if (checkchildFrmExist("图书管理") == true) { return; }
 
+            FormBookManage formBookManage = new FormBookManage();
+            //form1.MdiParent = this;
+            //form1.Show();
+            formBookManage.ShowDialog();
         }
     }
 }
